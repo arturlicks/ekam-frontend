@@ -1,9 +1,20 @@
-import React from 'react'
-
 function Calendar() {
     return (
-        <div>Calendar</div>
+        <div>
+            <ul>
+                <li>Etapa 1 - </li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
     )
 }
 
-export default Calendar
+export { Calendar }

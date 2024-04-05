@@ -1,6 +1,7 @@
 import { Header } from "../../components/Header";
 import { Navbar } from "../../components/Navbar";
 import { NextRace } from "../../components/NextRace";
+import { ScoreTable } from "../../components/ScoreTable";
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
       <Header />
       <Navbar />
       <NextRace />
+      <ScoreTable />
     </div>
   );
 }

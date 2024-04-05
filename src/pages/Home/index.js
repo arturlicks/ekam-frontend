@@ -2,6 +2,7 @@ import { Header } from "../../components/Header";
 import { Navbar } from "../../components/Navbar";
 import { NextRace } from "../../components/NextRace";
 import { ScoreTable } from "../../components/ScoreTable";
+import { BiggestCrashers } from "../../components/BiggestCrashers";
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <Navbar />
       <NextRace />
       <ScoreTable />
+      <BiggestCrashers />
     </div>
   );
 }

@@ -1,17 +1,17 @@
 import "./styles.css"
 
-function ScoreTable() {
+function BiggestCrashers() {
   return (
     <div>
         <table>
             <thead>
             <tr>
-                <th colSpan="3">Tabela de Pontuação</th>
+                <th colSpan="3">Campeonato de batedores</th>
             </tr>
             <tr>
                 <th>Posição</th>
                 <th>Piloto</th>
-                <th>Pontos</th>
+                <th>Incidentes</th>
             </tr>
             </thead>
             <tbody>
@@ -36,4 +36,4 @@ function ScoreTable() {
   )
 }
 
-export { ScoreTable } 
+export { BiggestCrashers } 

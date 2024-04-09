@@ -3,7 +3,7 @@ import "./styles.css"
 function NextRace() {
   return (
     <div>
-        <h3>Etapa 6/10 - Radical SR10 Silverstone</h3>
+        <h3>Próxima etapa 6/10 - Radical SR10 Silverstone</h3>
         <h3>24/04</h3>
     </div>
   )

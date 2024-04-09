@@ -3,6 +3,7 @@ import { Navbar } from "../../components/Navbar";
 import { NextRace } from "../../components/NextRace";
 import { ScoreTable } from "../../components/ScoreTable";
 import { BiggestCrashers } from "../../components/BiggestCrashers";
+import "./styles.css";
 
 function App() {
   return (
@@ -10,8 +11,10 @@ function App() {
       <Header />
       <Navbar />
       <NextRace />
-      <ScoreTable />
-      <BiggestCrashers />
+      <div className="container">
+        <ScoreTable />
+        <BiggestCrashers />
+      </div>
     </div>
   );
 }

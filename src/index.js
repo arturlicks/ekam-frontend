@@ -2,7 +2,7 @@ import React from 'react';
 import { createRoot } from 'react-dom/client';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './pages/Home';
-import { Calendar } from './pages/Calendar';
+import Calendar from './pages/Calendar';
 import "./styles.css"
 import UploadResults from './pages/UploadResults';
 

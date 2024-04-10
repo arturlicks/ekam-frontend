@@ -1,11 +1,12 @@
 import "./styles.css"
+import { Link } from 'react-router-dom';
 
 function Navbar() {
     return (
         <nav>
             <ul>
-                <li><a href="../../pages/Calendar">Calendario</a></li>
-                <li><a href="../../pages/Home">Resultados</a></li>
+                <li><Link to="/calendar">Calendario</Link></li>
+                <li><Link to="/">Resultados</Link></li>
                 <li><a href="#">Comparativo</a></li>
             </ul>
         </nav>

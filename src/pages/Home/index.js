@@ -5,7 +5,7 @@ import { ScoreTable } from "../../components/ScoreTable";
 import { BiggestCrashers } from "../../components/BiggestCrashers";
 import "./styles.css";
 
-function App() {
+function Home() {
   return (
     <div className="App">
       <Header />
@@ -19,4 +19,4 @@ function App() {
   );
 }
 
-export default App;
+export default Home;

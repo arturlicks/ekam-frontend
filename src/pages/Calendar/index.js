@@ -1,11 +1,8 @@
-import { Header } from "../../components/Header";
-import { Navbar } from "../../components/Navbar";
+import Layout from "../../components/Layout";
 
 function Calendar() {
     return (
-        <>
-            <Header />
-            <Navbar />
+        <Layout>
             <div>
                 <ul>
                     <li>Etapa 1 - </li>
@@ -20,8 +17,8 @@ function Calendar() {
                     <li></li>
                 </ul>
             </div>
-        </>
+        </Layout>
     )
 }
 
-export { Calendar }
+export default Calendar;

@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import Layout from '../../components/Layout';
 
 function UploadResults() {
     const [selectedFile, setSelectedFile] = useState(null);
@@ -13,11 +14,13 @@ function UploadResults() {
     };
 
     return (
-        <div>
-            <h1>File Upload</h1>
-            <input type="file" onChange={handleFileChange} />
-            <button onClick={handleUpload}>Upload</button>
-        </div>
+        <Layout>
+            <div className='container'>
+                <h1>File Upload</h1>
+                <input type="file" onChange={handleFileChange} />
+                <button onClick={handleUpload}>Upload</button>
+            </div>
+        </Layout>
     );
 }
 

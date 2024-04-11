@@ -1,8 +1,9 @@
 import "./styles.css"
 import { useState, useEffect } from "react";
 
+// 816639 = 1:21.663 481808 = 48.180
 function formatTime(milliseconds) {
-    let totalSeconds = Math.floor(milliseconds / 1000);
+    let totalSeconds = Math.floor(milliseconds / 10000);
     let minutes = Math.floor(totalSeconds / 60);
     let seconds = totalSeconds % 60;
     let ms = milliseconds % 1000;

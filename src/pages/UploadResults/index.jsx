@@ -9,8 +9,15 @@ function UploadResults() {
     };
 
     const handleUpload = () => {
-        // Perform upload logic here
-        console.log(selectedFile);
+        if (selectedFile) {
+            const reader = new FileReader();
+            reader.onload = (event) => {
+                const fileContent = event.target.result;
+                console.log(fileContent);
+                // Perform further processing with the file content
+            };
+            reader.readAsText(selectedFile);
+        }
     };
 
     return (

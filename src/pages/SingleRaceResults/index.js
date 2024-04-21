@@ -4,7 +4,7 @@ import { ScoreTable } from "../../components/ScoreTable";
 import { BiggestCrashers } from "../../components/BiggestCrashers";
 import "./styles.css";
 
-function Home() {
+function SingleRaceResults() {
   return (
     <div className="App">
       <Layout>
@@ -18,4 +18,4 @@ function Home() {
   );
 }
 
-export default Home;
+export default SingleRaceResults;

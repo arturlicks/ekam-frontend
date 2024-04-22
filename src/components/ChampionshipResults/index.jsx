@@ -22,19 +22,21 @@ const ChampionshipResults = () => {
     }, []);
 
     return (
-        <div>
+        <div style={{ padding: 20 }}>
             <table>
                 <thead>
                     <tr>
-                        <th>Driver</th>
-                        <th>Points</th>
+                        <th>Posição</th>
+                        <th>Piloto</th>
+                        <th>Pontos</th>
                     </tr>
                 </thead>
                 <tbody>
-                    {results.map(result => (
+                    {results.map((result, index) => (
                         <tr key={result.driver}>
-                            <td>{result.driver}</td>
-                            <td>{result.points}</td>
+                            <td style={{ textAlign: 'center' }}>{index + 1}</td>
+                            <td style={{ textAlign: 'center' }}>{result.driver}</td>
+                            <td style={{ textAlign: 'center' }}>{result.points}</td>
                         </tr>
                     ))}
                 </tbody>

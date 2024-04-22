@@ -1,3 +1,4 @@
+import ChampionshipResults from "../../components/ChampionshipResults"
 import Layout from "../../components/Layout"
 import { NextRace } from "../../components/NextRace"
 
@@ -7,6 +8,7 @@ function Home() {
       <Layout>
         <NextRace />
       </Layout>
+      <ChampionshipResults />
     </div>
   )
 }

@@ -6,6 +6,7 @@ function Layout({ children }) {
     <>
       <Header />
       <Navbar />
+      <div style={{ paddingBottom: 20 }}> </div>
       {children}
     </>
   );

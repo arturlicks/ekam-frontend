@@ -16,9 +16,10 @@ function ScoreTable() {
     const [scoreTable, setScoreTable] = useState('');
 
     const handleGetData = async () => {
-      const response = await fetch('http://localhost:8080/parsejson');
+      const urlParams = new URLSearchParams(window.location.search);
+      const date = urlParams.get('date');
+      const response = await fetch(`http://localhost:8080/racedata?date=${date}`);
       const data = await response.json();
-
       setScoreTable(data);
     }
 
@@ -44,7 +45,7 @@ function ScoreTable() {
             </thead>
             <tbody>
                 
-            {scoreTable['race_result'] && scoreTable['race_result'].map((entry, index) => (
+            {scoreTable&& scoreTable.map((entry, index) => (
             <tr key={index}>
                 <td>{entry.finish_position}</td>
                 <td>{entry.display_name}</td>

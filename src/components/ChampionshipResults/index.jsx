@@ -22,7 +22,7 @@ const ChampionshipResults = () => {
     }, []);
 
     return (
-        <div style={{ padding: 20 }}>
+        <div>
             <table>
                 <thead>
                     <tr>

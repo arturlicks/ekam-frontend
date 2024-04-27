@@ -1,5 +1,7 @@
 import "./styles.css"
 import { useState, useEffect } from "react";
+import Table from 'react-bootstrap/Table';
+import Container from 'react-bootstrap/Container';
 
 function BiggestCrashers() {
 
@@ -19,11 +21,11 @@ function BiggestCrashers() {
     }, []);
 
     return (
-        <div>
-            <table>
+        <Container>
+            <Table striped hover>
                 <thead>
                     <tr>
-                        <th colSpan="3">Campeonato de batedores</th>
+                        <th colSpan="3">Maiores batedores</th>
                     </tr>
                     <tr>
                         <th>Posição</th>
@@ -43,8 +45,8 @@ function BiggestCrashers() {
                                 </tr>
                             ))}
                 </tbody>
-            </table>
-        </div>
+            </Table>
+        </Container>
     );
 }
 

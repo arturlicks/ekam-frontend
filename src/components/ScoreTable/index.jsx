@@ -1,5 +1,7 @@
 import "./styles.css"
 import { useState, useEffect } from "react";
+import Table from 'react-bootstrap/Table';
+import Container from 'react-bootstrap/Container';
 
 // 816639 = 1:21.663 481808 = 48.180
 function formatTime(milliseconds) {
@@ -30,8 +32,8 @@ function ScoreTable() {
     }, []);
 
   return (
-    <div>
-        <table>
+    <Container>
+        <Table striped hover>
             <thead>
             <tr>
                 <th colSpan="3">Tabela de Pontuação</th>
@@ -54,8 +56,8 @@ function ScoreTable() {
             </tr>
             ))}
             </tbody>
-        </table>
-    </div>
+        </Table>
+    </Container>
   )
 }
 

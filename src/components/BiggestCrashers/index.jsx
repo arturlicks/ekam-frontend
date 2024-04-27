@@ -6,7 +6,9 @@ function BiggestCrashers() {
     const [crashersTable, setCrashersTable] = useState('');
 
     const handleGetData = async () => {
-        const response = await fetch('http://localhost:8080/parsejson');
+        const urlParams = new URLSearchParams(window.location.search);
+        const date = urlParams.get('date');
+        const response = await fetch(`http://localhost:8080/racedata?date=${date}`);
         const data = await response.json();
   
         setCrashersTable(data);
@@ -30,8 +32,8 @@ function BiggestCrashers() {
                     </tr>
                 </thead>
                 <tbody>
-                    {crashersTable['race_result'] &&
-                        crashersTable['race_result']
+                    {crashersTable &&
+                        crashersTable
                             .sort((a, b) => b.incidents - a.incidents) // Sort the array by incidents in descending order
                             .map((entry, index) => (
                                 <tr key={index}>

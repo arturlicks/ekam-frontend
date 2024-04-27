@@ -1,4 +1,7 @@
 import React, { useState, useEffect } from 'react';
+import Table from 'react-bootstrap/Table';
+import Container from 'react-bootstrap/Container';
+
 
 const ChampionshipResults = () => {
     const [results, setResults] = useState([]);
@@ -22,8 +25,8 @@ const ChampionshipResults = () => {
     }, []);
 
     return (
-        <div>
-            <table>
+        <Container>
+            <Table striped hover>
                 <thead>
                     <tr>
                         <th>Posição</th>
@@ -40,8 +43,8 @@ const ChampionshipResults = () => {
                         </tr>
                     ))}
                 </tbody>
-            </table>
-        </div>
+            </Table>
+        </Container>    
     );
 }
 

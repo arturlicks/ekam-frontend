@@ -33,7 +33,7 @@ function ScoreTable() {
 
   return (
     <Container>
-        <Table striped hover>
+        <Table hover>
             <thead>
             <tr>
                 <th colSpan="3">Tabela de Pontuação</th>

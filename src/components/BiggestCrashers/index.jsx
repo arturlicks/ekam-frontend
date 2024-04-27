@@ -22,7 +22,7 @@ function BiggestCrashers() {
 
     return (
         <Container>
-            <Table striped hover>
+            <Table hover>
                 <thead>
                     <tr>
                         <th colSpan="3">Maiores batedores</th>

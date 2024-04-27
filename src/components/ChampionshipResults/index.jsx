@@ -26,7 +26,7 @@ const ChampionshipResults = () => {
 
     return (
         <Container>
-            <Table striped hover>
+            <Table hover>
                 <thead>
                     <tr>
                         <th>Posição</th>

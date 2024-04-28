@@ -61,7 +61,7 @@ function Calendar() {
                             >
                                 <Badge bg="secondary">15%</Badge>
                             </OverlayTrigger>
-                                <Badge bg="warning">Amarelas no toe</Badge>
+                                <Badge bg="warning">Amarelas no tow</Badge>
                         </Card.Body>
                     </Card>
                 </Link>
@@ -77,7 +77,7 @@ function Calendar() {
                             <Badge bg="secondary">Longa</Badge>
                             <Badge bg="primary">OBS 1</Badge>
                             <Badge bg="secondary">2024</Badge>
-                            <Badge bg="warning">Amarelas no toe</Badge>
+                            <Badge bg="warning">Amarelas no tow</Badge>
                     </Card.Body>
                 </Card>
             </CardGroup>

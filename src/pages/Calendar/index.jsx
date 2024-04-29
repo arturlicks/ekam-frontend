@@ -17,7 +17,7 @@ function Calendar() {
                         <Card.Header>Etapa 1</Card.Header>
                         <Card.Body>
                             <Card.Img variant="top" src="/logo-series-road-d-simlab-prod-car-challenge.png" style={{ width: '18rem' }} />
-                            <Card.Title>SimLab - VIR Full Course</Card.Title>
+                            <Card.Title>SimLab - VIR - Full Course</Card.Title>
                             <Card.Text>
                                 Calendário de 2024
                             </Card.Text>
@@ -61,7 +61,7 @@ function Calendar() {
                             >
                                 <Badge bg="secondary">15%</Badge>
                             </OverlayTrigger>
-                                <Badge bg="warning">Amarelas no toe</Badge>
+                                <Badge bg="warning">Amarelas no tow</Badge>
                         </Card.Body>
                     </Card>
                 </Link>
@@ -77,7 +77,7 @@ function Calendar() {
                             <Badge bg="secondary">Longa</Badge>
                             <Badge bg="primary">OBS 1</Badge>
                             <Badge bg="secondary">2024</Badge>
-                            <Badge bg="warning">Amarelas no toe</Badge>
+                            <Badge bg="warning">Amarelas no tow</Badge>
                     </Card.Body>
                 </Card>
             </CardGroup>

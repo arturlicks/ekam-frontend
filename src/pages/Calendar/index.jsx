@@ -17,7 +17,7 @@ function Calendar() {
                         <Card.Header>Etapa 1</Card.Header>
                         <Card.Body>
                             <Card.Img variant="top" src="/logo-series-road-d-simlab-prod-car-challenge.png" style={{ width: '18rem' }} />
-                            <Card.Title>SimLab - VIR Full Course</Card.Title>
+                            <Card.Title>SimLab - VIR - Full Course</Card.Title>
                             <Card.Text>
                                 Calendário de 2024
                             </Card.Text>
